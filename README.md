@@ -1,8 +1,8 @@
 # Ograniczenia i Preprocessing Danych
 Ze względu na ograniczenia sprzętowe oraz błąd **`MemoryError`** (`Błąd pamięci`) podczas próby trenowania modeli na pełnym zbiorze danych ocen, konieczne było zastosowanie strategii redukcji rozmiaru danych w dwóch głównych plikach projektowych.
-## A. Użycie Progu Filtrującego (Thresholding) - plik dsd - 32 ml
+#### A. Użycie Progu Filtrującego (Thresholding) - plik dsd - 32 ml
 W jednym z plików projektowych zastosowano **filtrację progową (thresholding)** przy trenowaniu modelu, aby zmniejszyć objętość danych, jednocześnie zachowując ich jakość.
-## B. Użycie Mniejszego Podzbioru Danych (Sampling) - plik cs_2 100k - 100k 
+#### B. Użycie Mniejszego Podzbioru Danych (Sampling) - plik cs_2 100k - 100k 
 Ograniczenia te były niezbędne, aby umożliwić ukończenie procesu modelowania przy ograniczonych zasobach pamięci (RAM).
 
 System rekomendacyjny
